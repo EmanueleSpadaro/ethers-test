@@ -1,0 +1,17 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "concurrently": "^8.2.2",
+    "ethers": "5.7.2",
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "start": "concurrently \"npx hardhat node\" \"ts-node index.ts\""
+  }
+}
